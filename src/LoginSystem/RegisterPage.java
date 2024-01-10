@@ -7,6 +7,7 @@ import java.awt.*;
 import java.awt.event.*;
 import java.util.*;
 import javax.swing.*;
+import javax.xml.crypto.Data;
 
 public class RegisterPage implements ActionListener {
 
@@ -15,7 +16,7 @@ public class RegisterPage implements ActionListener {
     JButton resetButton = new JButton("Reset");
     JTextField usernameField = new JTextField();
     JPasswordField userPasswordField = new JPasswordField();
-    JTextField userEmailField = new JPasswordField();
+    JTextField userEmailField = new JTextField();
     JLabel userIDLabel = new JLabel("Nazwa Użytkownika:");
     JLabel userPasswordLabel = new JLabel("Hasło:");
     JLabel userEmailLabel = new JLabel("Email:");
@@ -75,20 +76,28 @@ public class RegisterPage implements ActionListener {
             String username = usernameField.getText();
             String password = String.valueOf(userPasswordField.getPassword());
             String email = userEmailField.getText();
-
-            //Weryfikacja czy mail jest poprawny
-            if (!email.contains("@") || email.length()<5) {
-                messageLabel.setForeground(Color.red);
-                messageLabel.setText("Wprowadzono zły mail");
+//Weryfikacja czy mail jest poprawny oraz czy username jest wolny
+            try {
+                DataValidation.isUsernameTaken(username);
+                try{
+                    DataValidation.CheckIfEmailIsCorrect(email);
+                    messageLabel.setForeground(Color.green);
+                    CasualUser newUser = new CasualUser(username,password,email,null,"junior");
+                    messageLabel.setText("Pomyślnie zarejestrowano");
+                    frame.dispose();
+                    WelcomePage welcomePage= new WelcomePage();
+                } catch (MusicWebException ex){
+                    throw new RuntimeException(ex);
+                }
+            } catch (MusicWebException ex) {
+                throw new RuntimeException(ex);
             }
-            else{
-                messageLabel.setForeground(Color.green);
-                CasualUser newUser = new CasualUser(username,password,email,null,"junior");
-                messageLabel.setText("Pomyślnie zarejestrowano");
-                frame.dispose();
 
 
-            }
+
+
+
+
 
 
 

@@ -4,25 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c762568f-a101-48de-9288-3f311704624d" name="Changes" comment="Created project, added basic functions, began working on login">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/MusicWebDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/UsernamesAndPasswords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LoginSystem/RegisterPage.java" afterDir="false" />
+    <list default="true" id="c762568f-a101-48de-9288-3f311704624d" name="Changes" comment="Fully implemented Login and Register Form,&#10;Todo -&gt; save on exit">
+      <change afterPath="$PROJECT_DIR$/resources/LOGO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LoginSystem/MainFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Service/JLabelTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Service/LogoPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Service/PageTemplate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MusicWeb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MusicWeb.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DataValidation/DataValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataValidation/DataValidation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LoginSystem/IDandPassword.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LoginSystem/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoginSystem/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LoginSystem/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LoginSystem/WelcomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoginSystem/WelcomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LoginSystem/RegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoginSystem/RegisterPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LoginSystem/WelcomePage.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MusicWebApp/MusicWebApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MusicWebApp/MusicWebApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Users/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Users/Admin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Users/CasualUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Users/CasualUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Users/MusicCritic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Users/MusicCritic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Users/People.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Users/People.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Users/PermissionUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Users/PermissionUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Users/VerifiedUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Users/VerifiedUser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +58,7 @@
     "com.github.iguissouma.nxconsole.dontShowDeprecationNoticeAgain": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "21",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -70,6 +66,14 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\janku\Desktop\Studia\PSiO\MusicWebProject\MusicWeb\resources" />
+      <recent name="C:\Users\janku\Desktop\Studia\PSiO\MusicWebProject\MusicWeb" />
+      <recent name="C:\Users\janku\Desktop\Studia\PSiO\MusicWebProject\MusicWeb\src\MusicWebApp" />
+      <recent name="C:\Users\janku\Desktop\Studia\PSiO\MusicWebProject\MusicWeb\img" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -80,7 +84,8 @@
       <updated>1704794218939</updated>
       <workItem from="1704794219940" duration="5636000" />
       <workItem from="1704816229848" duration="1541000" />
-      <workItem from="1704891073980" duration="6145000" />
+      <workItem from="1704891073980" duration="6198000" />
+      <workItem from="1704909365030" duration="12183000" />
     </task>
     <task id="LOCAL-00001" summary="Created project, added basic functions, began working on login">
       <option name="closed" value="true" />
@@ -90,7 +95,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704819310048</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Fully implemented Login and Register Form,&#10;Todo -&gt; save on exit">
+      <option name="closed" value="true" />
+      <created>1704897310726</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1704897310727</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,6 +111,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created project, added basic functions, began working on login" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created project, added basic functions, began working on login" />
+    <MESSAGE value="Fully implemented Login and Register Form,&#10;Todo -&gt; save on exit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fully implemented Login and Register Form,&#10;Todo -&gt; save on exit" />
   </component>
 </project>

@@ -27,8 +27,8 @@ public class Admin extends VerifiedUser{
 
     public void deleteUser(int id){
         try{
-            DataValidation.CheckIfUserIsDeletable(MusicWebApp.getPeopleList().get(id));
-            MusicWebApp.getPeopleList().remove(id);
+            DataValidation.CheckIfUserIsDeletable(Database.MusicWebDB.getPeopleList().get(id));
+            Database.MusicWebDB.getPeopleList().remove(id);
         } catch (MusicWebException e) {
             throw new RuntimeException(e);
         }
