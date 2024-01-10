@@ -1,16 +1,14 @@
-package MusicWebApp;
+package Database;
 
-import Database.UsernamesAndPasswords;
-import LoginSystem.LoginPage;
-import LoginSystem.WelcomePage;
-import Music.*;
+import Music.Album;
+import Music.Artist;
+import Music.Song;
 import Users.People;
 import lombok.Getter;
 
 import java.util.ArrayList;
 
-
-public class MusicWebApp {
+public class MusicWebDB {
     @Getter
     private static ArrayList<Artist> artistsList;
     @Getter
@@ -19,12 +17,4 @@ public class MusicWebApp {
     private static ArrayList<Song> songList;
     @Getter
     private static ArrayList<People> peopleList;
-
-
-
-    public static void main(String[] args) {
-
-        WelcomePage welcomePage = new WelcomePage();
-
-    }
 }

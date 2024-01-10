@@ -4,10 +4,11 @@ import DataValidation.*;
 import MusicWebApp.MusicWebApp;
 
 import java.util.Date;
+import java.util.HashMap;
 
 public class Admin extends VerifiedUser{
-    public Admin(int id, String username, String email, Date dateJoined, String userInfo) {
-        super(id, username, email, dateJoined, userInfo);
+    public Admin(String username, String password, String email, String userInfo) {
+        super(username, password, email, userInfo);
     }
 
     @Override
@@ -34,6 +35,10 @@ public class Admin extends VerifiedUser{
     }
 
     public void GrantMusicCriticPermission(){
+
+    }
+
+    public void GrantAdminPermission(){
 
     }
 

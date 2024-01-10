@@ -4,30 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c762568f-a101-48de-9288-3f311704624d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MusicWeb.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DataValidation/DataValidation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DataValidation/MusicWebException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LoginSystem/IDandPassword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LoginSystem/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LoginSystem/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LoginSystem/WelcomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Music/Album.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Music/Artist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Music/Song.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MusicWebApp/MusicWebApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Users/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Users/CasualUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Users/MusicCritic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Users/People.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Users/PermissionUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Users/VerifiedUser.java" afterDir="false" />
+    <list default="true" id="c762568f-a101-48de-9288-3f311704624d" name="Changes" comment="Created project, added basic functions, began working on login">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Database/MusicWebDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Database/UsernamesAndPasswords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LoginSystem/RegisterPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MusicWeb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MusicWeb.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataValidation/DataValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataValidation/DataValidation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LoginSystem/IDandPassword.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LoginSystem/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoginSystem/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LoginSystem/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LoginSystem/WelcomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoginSystem/WelcomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MusicWebApp/MusicWebApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MusicWebApp/MusicWebApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Users/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Users/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Users/CasualUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Users/CasualUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Users/MusicCritic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Users/MusicCritic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Users/People.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Users/People.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Users/PermissionUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Users/PermissionUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Users/VerifiedUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Users/VerifiedUser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,24 +50,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.github.iguissouma.nxconsole.dontShowDeprecationNoticeAgain": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -82,11 +79,25 @@
       <option name="presentableId" value="Default" />
       <updated>1704794218939</updated>
       <workItem from="1704794219940" duration="5636000" />
-      <workItem from="1704816229848" duration="904000" />
+      <workItem from="1704816229848" duration="1541000" />
+      <workItem from="1704891073980" duration="6145000" />
     </task>
+    <task id="LOCAL-00001" summary="Created project, added basic functions, began working on login">
+      <option name="closed" value="true" />
+      <created>1704819310047</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1704819310048</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Created project, added basic functions, began working on login" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created project, added basic functions, began working on login" />
   </component>
 </project>

@@ -1,12 +1,13 @@
 package Users;
 
 import java.util.Date;
+import java.util.HashMap;
 
 public class CasualUser extends People{
     private String level;
 
-    public CasualUser(int id, String username, String email, Date dateJoined, String userInfo, String level) {
-        super(id, username, email, dateJoined, userInfo);
+    public CasualUser(String username, String password, String email, String userInfo, String level) {
+        super(username, password, email, userInfo);
         this.level = level;
     }
 

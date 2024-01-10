@@ -1,10 +1,11 @@
 package Users;
 
 import java.util.Date;
+import java.util.HashMap;
 
 public abstract class VerifiedUser extends People{
-    public VerifiedUser(int id, String username, String email, Date dateJoined, String userInfo) {
-        super(id, username, email, dateJoined, userInfo);
+    public VerifiedUser(String username, String password, String email, String userInfo) {
+        super(username, password, email, userInfo);
     }
 
     abstract void addAlbumReview();

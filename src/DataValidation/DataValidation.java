@@ -16,4 +16,13 @@ public class DataValidation{
             throw new MusicWebException("Tego użytkownika nie możesz usunąć");
         }
     }
+
+    public static void CheckIfEmailIsCorrect(String email) throws MusicWebException{
+        if (!email.contains("@") || email.length()<5)
+            throw new MusicWebException("Podano nieprawidłowy mail");
+
+    }
 }
+
+
+
